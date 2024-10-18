@@ -1,0 +1,38 @@
+header{
+    background-color: aqua;
+    height: 100px;
+}
+
+footer{
+    background-color: brown;
+    height: 100px;
+}
+
+main{
+    background-color: blueviolet;
+    height: 500px;
+    display: flex;
+}
+
+#container1{
+    background-color: yellowgreen;
+    flex: 1;
+}
+
+#container2{
+    background-color: orangered;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#container2_a div{
+    background-color: rgb(5, 100, 100);
+    flex: 1;
+}
+
+#container2_b{
+    background-color: blueviolet;
+}
+
+

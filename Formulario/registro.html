@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registro</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Registro de datos</h1>
+        <div class="contenedor">
+            <form action="/registro" method="post">
+                <div class="fuentedeletra">
+                    <label>Tu nombre completo: </label>
+                    <input type="text" name="nombre_completo" placeholder="Ingresa tu nombre " />
+                </div>
+                <div class="fuentedeletra">
+                    <label>Apellido:</label>
+                    <input type="text" name="Apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div class="fuentedeletra">
+                    <label>Correo electrónico: </label>
+                    <input type="text" name="correo" placeholder="Ingresa tu correo "/>
+                </div>
+                <div class="fuentedeletra">
+                    <label>Contraseña: </label>
+                    <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+                </div>
+                <div class="fuentedeletra">
+                    <label>Confirmar contraseña: </label>
+                    <input type="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+                </div>
+                <div class="fuentedeletra">
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="fecha" >
+                </div>
+                <div class="fuentedeletra">
+                    <label>Genero: </label>
+                    <input type="radio" name="Genero" >
+                    <label>Masculino</label>
+                    <input type="radio" name="Genero" > 
+                    <label>Femenino</label>
+                    <input type="radio" name="Genero"> 
+                    <label>Prefiero no decir</label>
+                </div>
+                <div class="fuentedeletra">
+                    <input type="checkbox" name="suscribirse" id="suscribirse" checked />
+                    <label for="suscribirse">Suscribete a nuestro boletin de noticias</label>
+                </div>
+                <div class="fuentedeletra">
+                    <label>Una descripcion de si mismo:</label>
+                    <br>
+                    <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
+                </div>
+                <div class="fuentedeletra">
+                    <label>Selecciona tus intereses: </label>
+                    <select id="intereses" name="intereses">
+                        <option value="Musica">Música</option>
+                        <option value="Deportes">Deportes</option>
+                        <option value="Viajes">Viajes</option>
+                        <option value="Tecnologia">Tecnología</option></select>
+                </div>
+                <input id="boton" type="submit" value="Registrarse" />
+            </form>
+        </div>
+    </body>
+</html>

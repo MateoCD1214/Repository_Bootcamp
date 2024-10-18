@@ -1,0 +1,47 @@
+
+/* Es un comodion para separar todas las etiquetas(* outline) */
+* {
+    outline: 1px solid rgb(221, 213, 213);
+}
+/* cambiando el color del titulo y la fuente */
+h1 {
+    color: rgb(112, 211, 203);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: rgb(198, 214, 54);
+    font-size: 30px;
+}
+
+body{
+    color: aliceblue;
+    background-color: rgb(45, 46, 46);
+}
+
+ul{
+    font-size: 20px;
+}
+
+ol{
+    font-size: 20px;
+}
+
+.is-centered {
+    text-align: center;
+}
+
+.is-orange {
+    color: orange;
+}
+
+p{
+    font-size: 20px;
+    text-align: right;
+}
+
+#titulo-principal{
+    color: rgb(255, 255, 255);
+    height: 100px;
+}

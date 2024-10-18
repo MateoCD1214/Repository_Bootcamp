@@ -1,0 +1,79 @@
+/* Selectores descendente */
+.quote p {
+    color: rgb(21, 120, 138);
+    font-style: italic;
+}
+
+.quote h1 {
+    color: rgb(141, 25, 5);
+    font-style: oblique;
+}
+
+.quote *{
+    color: crimson;
+}
+
+/* Selector descendente directo (afecta solo a los hijos, no mas alla) */
+.header > img {
+    height: 50px;
+}
+
+.header{
+    background-color: aqua;
+}
+
+/* Selector combinado */
+
+/* Color de fondo del container */
+#container{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+/* Estilo para los párrafos dentro del contenedor*/
+#container p {
+    font-size: 16px;
+    background-color: #333;
+    text-align: center; 
+}
+
+/* Estilo para los párrafos dentro del contenedor*/
+
+/* Parrafo resaltado dentro del container */
+#container p.highlight {
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}
+
+#container p {
+    font-weight: bold;
+    color: #ffffff; /* Blanco */
+}
+
+/* Selectores de atributos */
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+    padding: 5px;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 5px;
+    margin: 20px;
+}
+
+a {
+
+    text-decoration: underline;
+    
+    font-style: italic;
+    
+    text-decoration: line-through;
+    
+    text-decoration: none;
+    
+}
