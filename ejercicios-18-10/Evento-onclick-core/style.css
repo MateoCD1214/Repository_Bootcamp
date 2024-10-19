@@ -1,0 +1,58 @@
+header{
+    box-shadow: 1rem rgb(122, 120, 120);
+    background-color: rgb(100, 100, 96);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.petlopedia{
+    margin: 1rem;
+}
+
+#buscar{
+    width: 50rem;
+    height: 1.5rem;
+}
+
+#boton1{
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+.contenedor1{
+    display: flex;
+    flex: 1;
+    margin-top: 1rem;
+    padding: 2rem;
+    height: 12rem;
+    background-color: rgb(194, 194, 8);
+    border: black solid;
+}
+
+.contenedor1_a{
+    display: flex;
+    height: 2rem;
+    background-color: blue;
+    margin-top: 0.00001rem;
+}
+
+.contenedor1_b{
+    background-color: aqua;
+    
+    height: 10rem;
+    margin-top: 3rem;
+    margin-left: ;
+}
+
+.contenedor1_b_1{
+    background-color: crimson;
+    width: 70rem;
+    flex-direction: column;
+    
+}
+
+#boton2{
+    background-color: brown;
+}
