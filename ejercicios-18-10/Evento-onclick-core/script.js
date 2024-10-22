@@ -1,22 +1,30 @@
-//boton dar megusta 
-var contador = 0;
-var boton = document.getElementById("likebtn")
-
-boton.addEventListener("click", function(){
-    contador++;
-    boton.textContent = contador + "Me gusta";
-})
-
-//cambiar texto de un boton
-var botoniniciar = document.getElementById("botoniniciar");
-botoniniciar.addEventListener("click", function() {
-
-    this.innerText = "Cerrar sesión";
-})
-
 //boton iniciar sesion
-var botoniniciar = document.getElementById("botoniniciar");
-botoniniciar.addEventListener("click", function() {
+let botonIniciar = (element) =>{
+    element.innerText = "Cerrar sesion"
+} 
 
-    this.innerText = "Cerrar sesión";
-});
+let desaparecer = (element) =>{
+    element.remove();
+}
+
+let contadorgato = 0;
+let megustaGato = (element) =>{
+    contadorgato++; 
+    element.innerText = contadorgato + " me gusta";
+}
+
+let contadorgolden = 0;
+let megustaGolden = (element) =>{
+    contadorgolden++; 
+    element.innerText = contadorgolden + " me gusta";
+}
+
+let alertaGatoAtigrado = (element) =>{
+    alert("Gato atrigrado was like");
+}
+
+let alertaGoldenRetriever = (element) =>{
+    alert("Golden Retriever was like");
+}
+
+
