@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -36,11 +37,11 @@
         <div class="container">
             <div class="container-texto">
                 <img id="imagen_portada" src="icono.png" alt="">
-                <h1>Mateo Castillo</h1> <br>
+                <h1 id="namePerfil">Mateo Castillo</h1> <br>
                 <h2>Llay-Llay, Valparaiso, Chile</h2> <br>
                 <p>Estudiante Bootcamp Fullstack-Phyton Coding Dojo | Amante de los deportes y videojuegos</p>
                 <p>Apasionado por aprender y crear experiencias digitales, me gusta hacer deportes, <br> fútbol, ciclismo, entre otros, además me gusta jugar videojuegos. <br>
-                <button class="button2">Editar perfil</button>
+                <button class="button2" onclick="cambiarTexto()">Editar perfil</button>
             </div>
         </div>
         <div class="container_edu">
@@ -52,39 +53,39 @@
         </div>
         <div class="conexion">
             <div class="conexion_1">
-                <h1>Solicitudes de Conexión (2)</h1>
+                <h1>Solicitudes de Conexión <span id="num-soli">(2)</span></h1>
                 <div class="conexion_1_a">
                     
                         <img class="imagen_conexion" src="img/perfil1.jpeg" alt="perfil1"> 
                         <p>Kevin Jacome</p>
-                        <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i>
-                        <i class="fa-solid fa-circle-xmark" style="color: #fd1212;"></i>
+                        <button class="accept-btn">✓</button>
+                        <button class="reject-btn">✗</button>
             
                 </div>
-                <div class="conexion_1_b">
+                <div class="conexion_1_a">
                         <img class="imagen_conexion" src="img/img_2.avif" alt="perfil2"> 
                         <p>Everardo Garcia</p>
-                        <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i>
-                        <i class="fa-solid fa-circle-xmark" style="color: #fd1212;"></i> 
+                        <button class="accept-btn">✓</button>
+                        <button class="reject-btn">✗</button> 
                 </div>
             </div>
         </div>
         <div class="tus_conexiones">
             <div class="tus_conexiones1">
-                <h1>Tus Conexiones (500+)</h1>
+                <h1 id="total-conex">Tus Conexiones (500+)</h1>
                 <div class="tus_conexiones_1_a">
                     <img class = "imagen_tus_conexiones" src="img/perfil2.jpeg" alt="img1">
                     <p>Patricia Gonzalez</p>
                 </div>
-                <div class="tus_conexiones_1_b">
+                <div class="tus_conexiones_1_a">
                     <img class = "imagen_tus_conexiones" src="img/img_1.png" alt="img2">
                     <p>Maritza Mondaca</p>
                 </div>
-                <div class="tus_conexiones_1_c">
+                <div class="tus_conexiones_1_a">
                     <img class = "imagen_tus_conexiones" src="img/img_3.png" alt="img3">
                     <p>Ismael Donoso</p>
                 </div>
-                <div class="tus_conexiones_1_d">
+                <div class="tus_conexiones_1_a">
                     <img class = "imagen_tus_conexiones" src="img/img_4.png" alt="img4">
                     <p>Orlando Cortes</p>
                 </div>

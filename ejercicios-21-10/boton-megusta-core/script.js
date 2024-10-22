@@ -1,24 +1,18 @@
+let megusta = 0;
+function megusta1() {
+    megusta++;
+    document.getElementById("like1").innerText = megusta + " like(s)";
+}
 
+let megusta_b = 0;
+function megusta2() {
+    megusta_b++;
+    document.getElementById("like2").innerText = megusta_b + " like(s)";
+}
 
-/*
-    let contadormegusta1 = 0;
-    let funcionmegusta1 = (element) =>{
-        contadormegusta1++; 
-    }
+let megusta_c = 0;
+function megusta3() {
+    megusta_c++;
+    document.getElementById("like3").innerText = megusta_c + " like(s)";
+}
 
-    let megusta1 = (element)=>{
-        element.innerText = contadormegusta1 + " like(s)";
-    }
-
-    let contadormegusta2 = 0;
-    let contadormegusta2 = (element) =>{
-        contadormegusta2++; 
-        element.innerText = contadormegusta2 + " like(s)";
-    }
-
-    let contadormegusta3 = 0;
-    let contadormegusta3 = (element) =>{
-        contadormegusta1++; 
-        element.innerText = contadormegusta1 + " like(s)";
-    }
-        */
